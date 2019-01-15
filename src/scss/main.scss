@@ -11,3 +11,17 @@ html {
 a {
     color: #333;
 }
+
+header {
+    &.site--header {
+        display: flex;
+        align-content: center;
+        padding: 25px;
+    }
+}
+
+.posts {}
+
+.page {}
+
+.page--header {}
