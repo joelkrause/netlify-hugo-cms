@@ -83,6 +83,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -159,6 +166,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/site/content/post/brewing-chemex.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/content/post/brewing-chemex.html",
+		"oF": 0
+		},
 	"/site/content/post/brewing-chemex.md": {
 		"cB": 0,
 		"cS": 0,
@@ -205,42 +219,6 @@
 		"ft": 4096,
 		"oA": 0,
 		"oAP": "/site/content/post/making-sense.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/site/content/products/_index.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "/site/content/products/_index.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/site/content/values/_index.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "/site/content/values/_index.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -486,6 +464,34 @@
 		"oA": 0,
 		"oAP": "/site/static/browserconfig.xml",
 		"oF": 0
+		},
+	"/site/static/css/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/site/static/css/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/site/static/css/main.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/static/css/main.css.map",
+		"oF": 0
+		},
+	"/site/static/images/joelkrause.png": {
+		"ft": 32768,
+		"iS": 309946,
+		"oA": 0,
+		"oAP": "/site/static/images/joelkrause.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/site/static/img/about-direct-sourcing.jpg": {
 		"ft": 16384,
@@ -909,22 +915,31 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/src/css/main.css": {
-		"aP": 1,
+	"/site/static/scss/_modules/_variables.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/src/css/main-min.css",
+		"oA": 1,
+		"oAP": "/site/static/scss/_modules/_variables.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
-	"/src/css/main.css.map": {
-		"cB": 0,
-		"ft": 8192,
+	"/site/static/scss/main.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "/src/css/main.css.map",
-		"oF": 0
+		"oAP": "/site/static/css/main.css",
+		"oF": 2,
+		"oS": 3,
+		"uL": 1
 		},
 	"/src/js/app.js": {
 		"ft": 64,
@@ -1005,19 +1020,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/src/scss/main.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/src/css/main.css",
-		"oF": 2,
-		"oS": 3,
-		"uL": 1
 		},
 	"/webpack.conf.js": {
 		"ft": 64,
