@@ -353,6 +353,13 @@
 		"oAP": "/site/layouts/partials/nav.html",
 		"oF": 0
 		},
+	"/site/layouts/partials/navigation.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/layouts/partials/navigation.html",
+		"oF": 0
+		},
 	"/site/layouts/partials/newsletter-form.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -914,6 +921,36 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/site/static/scripts/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/site/static/scripts/main-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/site/static/scripts/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/site/static/scripts/main.min.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/site/static/scripts/main.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/site/static/scripts/main.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/site/static/scss/_modules/_variables.scss": {
 		"aP": 0,

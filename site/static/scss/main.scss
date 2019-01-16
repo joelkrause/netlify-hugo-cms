@@ -70,30 +70,45 @@ header {
                 padding-left: 15px;
             }
         }
+    }
 
-        nav {
-            &.site--nav {
-                flex-grow: 1;
+    &.scrolling--header {
+        position: fixed;
+        width: 100%;
+        background-color: $color_accent_background;
+        padding: 15px 0;
+        top: -100%;
+        left: 0;
+        z-index: 1;
+        transition: top 0.5s;
 
-                ul,
-                li {
-                    list-style: none;
-                    margin: 0;
-                    padding: 0;
-                }
+        &.scrolled {
+            top: 0;
+        }
+    }
+}
 
-                ul {
-                    @include lg-up {
-                        display: flex;
-                        justify-content: flex-end;
-                    }
+nav {
+    &.site--navigation {
+        flex-grow: 1;
 
-                    li {
-                        a {
-                            color: inherit;
-                            text-decoration: none;
-                        }
-                    }
+        ul,
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            @include lg-up {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            li {
+                a {
+                    color: inherit;
+                    text-decoration: none;
                 }
             }
         }
