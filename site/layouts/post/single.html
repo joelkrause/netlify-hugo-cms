@@ -16,5 +16,8 @@
   <div class="post--content container">
     {{ .Content }}
   </div>
+  <div class="disqus--container container">
+    {{ template "_internal/disqus.html" . }}
+  </div>
 </div>
 {{ end }}
