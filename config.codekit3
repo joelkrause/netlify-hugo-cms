@@ -226,13 +226,6 @@
 		"oAP": "/site/layouts/_default/single.html",
 		"oF": 0
 		},
-	"/site/layouts/blog/single.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/site/layouts/blog/single.html",
-		"oF": 0
-		},
 	"/site/layouts/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -385,6 +378,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/site/layouts/partials/text-and-image.html",
+		"oF": 0
+		},
+	"/site/layouts/post/single.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/layouts/post/single.html",
 		"oF": 0
 		},
 	"/site/layouts/section/contact.html": {
