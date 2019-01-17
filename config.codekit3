@@ -380,11 +380,11 @@
 		"oAP": "/site/layouts/partials/text-and-image.html",
 		"oF": 0
 		},
-	"/site/layouts/posts/single.html": {
+	"/site/layouts/post/single.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/site/layouts/posts/single.html",
+		"oAP": "/site/layouts/post/single.html",
 		"oF": 0
 		},
 	"/site/layouts/section/contact.html": {
