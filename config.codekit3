@@ -191,42 +191,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/site/content/post/jamaica-blue.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "/site/content/post/jamaica-blue.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/site/content/post/making-sense.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "/site/content/post/making-sense.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"/site/data/.keep": {
 		"cB": 0,
 		"ft": 8192,
@@ -416,11 +380,11 @@
 		"oAP": "/site/layouts/partials/text-and-image.html",
 		"oF": 0
 		},
-	"/site/layouts/post/single.html": {
+	"/site/layouts/posts/single.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/site/layouts/post/single.html",
+		"oAP": "/site/layouts/posts/single.html",
 		"oF": 0
 		},
 	"/site/layouts/section/contact.html": {
