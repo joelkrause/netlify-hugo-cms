@@ -2,4 +2,5 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Homepage"
 
-disqusShortname = "joelkrauseme"
+[taxonomies]
+   tag = "tags"

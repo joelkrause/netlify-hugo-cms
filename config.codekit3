@@ -275,6 +275,13 @@
 		"oAP": "/site/layouts/partials/head.html",
 		"oF": 0
 		},
+	"/site/layouts/partials/home--intro.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/layouts/partials/home--intro.html",
+		"oF": 0
+		},
 	"/site/layouts/partials/image-grid.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -364,6 +371,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/site/layouts/partials/table.html",
+		"oF": 0
+		},
+	"/site/layouts/partials/tags.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/layouts/partials/tags.html",
 		"oF": 0
 		},
 	"/site/layouts/partials/text-and-image.html": {
@@ -476,7 +490,7 @@
 		},
 	"/site/static/images/joelkrause.png": {
 		"ft": 32768,
-		"iS": 309946,
+		"iS": 11223,
 		"oA": 0,
 		"oAP": "/site/static/images/joelkrause.png",
 		"oF": 0,

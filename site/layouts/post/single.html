@@ -2,8 +2,9 @@
 <div class="single--post">
   <div class="mega--title">
     <div class="container">
+      {{ partial "tags" . }}
       <h1>{{.Title}}</h1>
-      <div class="posted-on">Posted on {{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+      <div class="posted-on">Posted on {{ .Date.Format "Monday, January 2, 2006" }}</div>
       <div class="written-by">Written by <a href="https://twitter.com/joel_krause" target="_blank">Joel Krause</a></div>
     </div>
   </div>
