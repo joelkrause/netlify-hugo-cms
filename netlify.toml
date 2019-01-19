@@ -6,8 +6,3 @@
 
 [context.deploy-preview]
   command = "yarn build-preview"
-
-- label: "Tags"
-  name: "tags"
-  widget: "list"
-  default: ["news"]
