@@ -446,6 +446,34 @@
 		"oAP": "/site/static/css/main.css.map",
 		"oF": 0
 		},
+	"/site/static/fonts/Inter-UI-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/static/fonts/Inter-UI-Bold.woff",
+		"oF": 0
+		},
+	"/site/static/fonts/Inter-UI-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/static/fonts/Inter-UI-Bold.woff2",
+		"oF": 0
+		},
+	"/site/static/fonts/Inter-UI-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/static/fonts/Inter-UI-Regular.woff",
+		"oF": 0
+		},
+	"/site/static/fonts/Inter-UI-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/static/fonts/Inter-UI-Regular.woff2",
+		"oF": 0
+		},
 	"/site/static/images/joelkrause.png": {
 		"ft": 32768,
 		"iS": 309946,
