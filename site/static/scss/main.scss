@@ -1,24 +1,6 @@
 @import "_modules/variables";
 @import url("https://use.typekit.net/asw0lzz.css");
 
-@font-face {
-    font-family: 'Inter UI';
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/Inter-UI-Regular.woff2") format("woff2"),
-        url("../fonts/Inter-UI-Regular.woff") format("woff");
-    font-display: fallback;
-}
-
-@font-face {
-    font-family: 'Inter UI';
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/Inter-UI-Bold.woff2") format("woff2"),
-        url("../fonts/Inter-UI-Bold.woff") format("woff");
-    font-display: fallback;
-}
-
 body,
 html {
     text-rendering: optimizeLegibility;
