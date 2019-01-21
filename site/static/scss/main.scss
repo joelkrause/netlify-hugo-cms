@@ -75,10 +75,6 @@ a {
     @include xl-up {
         max-width: 50vw;
     }
-
-    @include lg-up {
-        max-width: 60vw;
-    }
 }
 
 header {
