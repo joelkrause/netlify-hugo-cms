@@ -201,8 +201,13 @@ nav {
 
             li {
                 a {
-                    color: inherit;
+                    color: $body_color;
+                    transition: color 0.25s;
                     text-decoration: none;
+
+                    &:hover {
+                        color: $color_accent_display;
+                    }
                 }
             }
         }
@@ -212,6 +217,15 @@ nav {
 .home {
     background-color: $color_accent_background;
     padding: 15vw 0;
+
+    a {
+        color: $color_accent_display;
+        transition: color 0.25s;
+
+        &:hover {
+            color: $body_color;
+        }
+    }
 }
 
 .mega--title {
