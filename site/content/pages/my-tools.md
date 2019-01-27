@@ -1,10 +1,11 @@
 ---
 title: My Tools
 ---
-## Software
+There's are the tools that I use on a day-to-day, they're always open, and always used... I couldn't live without them!
+
 
 ### VS Code
-I use VS Code as my day to day code editor
+I use VS Code as my day to day code editor. I currently have about 40 extensions active (seriously need to weed these out) - I'll write a more detailed Code setup in a post.
 
 [Visit Website](https://code.visualstudio.com)
 
@@ -32,5 +33,3 @@ FTP App... Not much to say
 This is where I keep all my code snippets, it syncs perfectly with VS Code which means I can insert a snippet right into my code without leaving the app.
 
 [Visit Website](https://cacher.io)
-
-## VS Code Setup
