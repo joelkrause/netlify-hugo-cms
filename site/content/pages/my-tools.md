@@ -1,4 +1,11 @@
 ---
 title: My Tools
 ---
-my tools
+## Software
+
+* VS Code
+* CodeKit
+* MAMP
+* Sequel Pro
+
+## VS Code Setup
