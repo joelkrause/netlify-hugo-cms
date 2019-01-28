@@ -313,12 +313,18 @@ nav {
 .single--post {
     ul {
         margin: 0;
-        padding: 0 0 0 80px;
-        font-size: 1rem;
+
+        @include lg-up {
+            font-size: 1rem;
+            padding: 0 0 0 80px;
+        }
 
         li {
             list-style: none;
-            text-indent: -29px;
+
+            @include lg-up {
+                text-indent: -29px;
+            }
 
             &:not(:last-of-type) {
                 padding: 0 0 10px;
