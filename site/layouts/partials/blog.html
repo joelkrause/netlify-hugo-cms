@@ -1,5 +1,5 @@
 <div class="blog--posts">
-	{{ range first 4 (where .Data.Pages "Type" "post") }}
+	{{ range first 4 (where .Data.Pages "Type" "posts") }}
 	{{ .Render "li" }}
 	{{ end }}
 </div>
