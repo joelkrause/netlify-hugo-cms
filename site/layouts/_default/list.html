@@ -2,10 +2,9 @@
 <div class="container">
   <h2>All Posts</h2>
   <div class="blog--posts">
-    {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+    {{ range (where .Data.Pages "Type" "posts") }}
       {{ .Render "li" }}
     {{ end }}
-    {{ partial "pagination" . }}
   </div>
 </div>
 
