@@ -370,6 +370,13 @@
 		"oAP": "/site/layouts/index.html",
 		"oF": 0
 		},
+	"/site/layouts/pages/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/layouts/pages/contact.html",
+		"oF": 0
+		},
 	"/site/layouts/pages/index.html": {
 		"cB": 0,
 		"ft": 8192,
