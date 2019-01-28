@@ -56,6 +56,19 @@ p {
     }
 }
 
+h1 {
+    &.page--title {
+        margin: 0;
+        padding: 0 0 5vw;
+    }
+
+    &.list--title {
+        margin: 0;
+        padding: 5vw 0 0;
+        padding-top: calc(5vw + 100px);
+    }
+}
+
 a {
     color: #333;
 
@@ -92,6 +105,11 @@ header {
         display: flex;
         align-items: center;
         padding: 25px;
+
+        @include lg-up {
+            position: fixed;
+            width: 100%;
+        }
 
         .logo {
             font-weight: 700;
@@ -230,6 +248,7 @@ nav {
 .home {
     background-color: var(--color_accent_background);
     padding: 7.5vw 0;
+    padding-top: calc(7.5vw + 100px);
 
     a {
         color: var(--color_accent_display);
@@ -264,6 +283,7 @@ nav {
     justify-content: center;
     text-align: center;
     padding: 10vw 0;
+    padding-top: calc(10vw + 100px);
 
     h1 {
         margin: 0 0 2rem;
@@ -386,6 +406,7 @@ nav {
 .single--page {
     .page--content {
         padding: 5vw 0;
+        padding-top: calc(5vw + 100px);
     }
 }
 

@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container">
-  <h2>All Posts</h2>
+  <h1 class="list--title">All Posts</h1>
   <div class="blog--posts">
     {{ range (where .Data.Pages "Type" "posts") }}
       {{ .Render "li" }}
