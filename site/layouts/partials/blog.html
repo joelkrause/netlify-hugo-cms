@@ -1,9 +1,11 @@
+<div class="latest--posts">
+	<h2>Latest Posts</h2>
+	<div class="tc">
+		<a href="/posts">See All -></a>
+	</div>
+</div>
 <div class="blog--posts">
 	{{ range first 4 (where .Data.Pages "Type" "posts") }}
 	{{ .Render "li" }}
 	{{ end }}
-</div>
-
-<div class="tc">
-	<a href="/posts" class="btn">Read more</a>
 </div>
