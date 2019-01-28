@@ -5,7 +5,7 @@ There's are the tools that I use on a day-to-day, they're always open, and alway
 
 
 ### [VS Code](https://code.visualstudio.com)
-I use VS Code as my day to day code editor. I currently have about 40 extensions active (seriously need to weed these out) - but my main ones are as follows:
+I use VS Code as my day to day code editor. I currently have about 40 extensions active (seriously need to weed these out), but my main ones are as follows:
 
 - One Dark Pro (My current theme)
 - Beautify - used to beautify my code
