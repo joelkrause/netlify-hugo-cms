@@ -6,5 +6,3 @@ disqusShortname = "joelkrauseme"
 
 [taxonomies]
    tag = "tags"
-
-publish_mode = "editorial_workflow"
