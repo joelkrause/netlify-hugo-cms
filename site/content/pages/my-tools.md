@@ -1,7 +1,7 @@
 ---
 title: Tools I Use
 ---
-There's are the tools that I use on a day-to-day, they're always open, and always used... I couldn't live without them!
+These are the tools that I use on a day-to-day basis, they're always open, and always used... I couldn't live without them!
 
 
 ### [VS Code](https://code.visualstudio.com)
