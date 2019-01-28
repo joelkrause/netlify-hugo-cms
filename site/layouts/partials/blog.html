@@ -5,7 +5,7 @@
 	</div>
 </div>
 <div class="blog--posts">
-	{{ range first 4 (where .Data.Pages "Type" "posts") }}
+	{{ range first 8 (where .Data.Pages "Type" "posts") }}
 	{{ .Render "li" }}
 	{{ end }}
 </div>
