@@ -1,5 +1,8 @@
 <a href="{{ .Permalink }}" class="post--card">
 	<h2>{{ .Title }}</h2>
-	<p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+	<div class="meta">
+		<p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+		{{ partial "tags" . }}
+	</div>
 	<p class="desc">{{ .Description }}</p>
 </a>
