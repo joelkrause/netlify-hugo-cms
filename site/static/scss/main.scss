@@ -162,6 +162,7 @@ nav {
 
                 ~.open--menu_label {
                     span {
+                        background-color: var(--color_accent_text);
                         &.line-1 {
                             transform: rotate(45deg) translateX(10px);
                         }
@@ -179,12 +180,11 @@ nav {
         }
 
         .open--menu_label {
-            color: blue;
             display: block;
             position: absolute;
             right: 25px;
             top: 25px;
-            z-index: 2;
+            z-index: 22;
 
             @include breakpoint(up, lg) {
                 display: none;
@@ -215,7 +215,7 @@ nav {
                 left: 0;
                 top: -100%;
                 width: 100%;
-                background-color: var(--color_accent_background);
+                background-color: var(--body_color);
                 transition: top 0.5s;
                 opacity: 1;
                 z-index: 1;
@@ -244,10 +244,13 @@ nav {
                 }
 
                 a {
-                    color: var(--body_color);
+                    color: var(--color_accent_text);
                     transition: color 0.25s;
                     text-decoration: none;
 
+                    @include breakpoint(up, md) {
+                        color: var(--body_color);
+                    }
 
                     &:hover {
                         color: var(--color_accent_display);
