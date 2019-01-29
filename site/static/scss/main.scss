@@ -34,7 +34,7 @@ html {
     font-size: 1rem;
     font-feature-settings: "cv05", "ss01", "frac";
 
-    @include lg-up {
+    @include breakpoint(up, lg) {
         font-size: 1.15rem;
     }
 }
@@ -65,7 +65,10 @@ h1 {
     &.list--title {
         margin: 0;
         padding: 5vw 0 0;
-        padding-top: calc(5vw + 100px);
+
+        @include breakpoint(up, lg) {
+            padding-top: calc(5vw + 77px);
+        }
     }
 }
 
@@ -94,7 +97,7 @@ a {
     width: 95vw;
     margin: 0 auto;
 
-    @include xl-up {
+    @include breakpoint(up, xl) {
         max-width: 50vw;
     }
 }
@@ -106,7 +109,7 @@ header {
         align-items: center;
         padding: 25px;
 
-        @include lg-up {
+        @include breakpoint(up, lg) {
             position: fixed;
             width: 100%;
         }
@@ -114,7 +117,7 @@ header {
         .logo {
             font-weight: 700;
 
-            @include lg-up {
+            @include breakpoint(up, lg) {
                 font-size: 1.25rem;
             }
 
@@ -131,7 +134,7 @@ header {
                 height: 44px;
                 margin-right: 15px;
 
-                @include lg-up {
+                @include breakpoint(up, lg) {
                     width: 84px;
                     height: 84px;
                 }
@@ -182,7 +185,7 @@ nav {
             top: 25px;
             z-index: 2;
 
-            @include lg-up {
+            @include breakpoint(up, lg) {
                 display: none;
             }
 
@@ -206,7 +209,7 @@ nav {
         }
 
         ul {
-            @include md-down {
+            @include breakpoint(down, md) {
                 position: fixed;
                 left: 0;
                 top: -100%;
@@ -218,13 +221,13 @@ nav {
                 z-index: 1;
             }
 
-            @include lg-up {
+            @include breakpoint(up, lg) {
                 display: flex;
                 justify-content: flex-end;
             }
 
             li {
-                @include lg-up {
+                @include breakpoint(up, lg) {
                     &:not(:last-of-type) {
                         margin-right: 25px;
                     }
@@ -248,7 +251,10 @@ nav {
 .home {
     background-color: var(--color_accent_background);
     padding: 7.5vw 0;
-    padding-top: calc(7.5vw + 100px);
+
+    @include breakpoint(up, lg) {
+        padding-top: calc(7.5vw + 77px);
+    }
 
     a {
         color: var(--color_accent_display);
@@ -283,14 +289,17 @@ nav {
     justify-content: center;
     text-align: center;
     padding: 10vw 0;
-    padding-top: calc(10vw + 100px);
+
+    @include breakpoint(up, lg) {
+        padding-top: calc(10vw + 77px);
+    }
 
     h1 {
         margin: 0 0 2rem;
         padding: 0 0 2rem;
         position: relative;
 
-        @include lg-up {
+        @include breakpoint(up, lg) {
             font-size: 3rem;
         }
 
@@ -364,7 +373,7 @@ nav {
     ul {
         margin: 0;
 
-        @include lg-up {
+        @include breakpoint(up, lg) {
             font-size: 1rem;
             padding: 0 0 0 80px;
         }
@@ -372,7 +381,7 @@ nav {
         li {
             list-style: none;
 
-            @include lg-up {
+            @include breakpoint(up, lg) {
                 text-indent: -29px;
             }
 
@@ -406,7 +415,10 @@ nav {
 .single--page {
     .page--content {
         padding: 5vw 0;
-        padding-top: calc(5vw + 100px);
+
+        @include breakpoint(up, lg) {
+            padding-top: calc(5vw + 77px);
+        }
     }
 }
 
@@ -426,7 +438,7 @@ nav {
             color: #444;
             font-style: italic;
 
-            @include lg-up {
+            @include breakpoint(up, lg) {
                 font-size: 1.5rem;
             }
         }
@@ -447,12 +459,12 @@ footer {
         background-color: var(--color_accent_background);
 
         .container {
-            @include lg-up {
+            @include breakpoint(up, lg) {
                 display: flex;
             }
 
             .col {
-                @include lg-up {
+                @include breakpoint(up, lg) {
                     width: 50%;
                 }
             }

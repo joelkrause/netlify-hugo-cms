@@ -11,53 +11,42 @@ $sm: 576px;
 $md: 768px;
 $lg: 992px;
 $xl: 1200px;
+$xxl: 1920px;
 
-// Min-width
-@mixin sm-up() {
-    @media (min-width: #{$sm}) {
-        @content;
+// @include mq(up,md) {
+//     display: block;
+// }
+@mixin breakpoint($direction, $size) {
+    @if $size=='sm' {
+        $size: $sm;
     }
-}
 
-@mixin md-up() {
-    @media (min-width: #{$md}) {
-        @content;
+    @else if $size=='md' {
+        $size: $md;
     }
-}
 
-@mixin lg-up() {
-    @media (min-width: #{$lg}) {
-        @content;
+    @else if $size=='lg' {
+        $size: $lg;
     }
-}
 
-@mixin xl-up() {
-    @media (min-width: #{$xl}) {
-        @content;
+    @else if $size=='xl' {
+        $size: $xl;
     }
-}
 
-// Max-width
-@mixin sm-down() {
-    @media (max-width: #{$sm}) {
-        @content;
+    @else if $size=='xxl' {
+        $size: $xxl;
     }
-}
 
-@mixin md-down() {
-    @media (max-width: #{$md}) {
-        @content;
+    @if $direction=='up' {
+        $direction: 'min-width';
     }
-}
 
-@mixin lg-down() {
-    @media (max-width: #{$lg}) {
-        @content;
+    @else if $direction=='down' {
+        $direction: 'max-width';
     }
-}
 
-@mixin xl-down() {
-    @media (max-width: #{$xl}) {
+    // Now for the actual content!
+    @media ($direction: $size) {
         @content;
     }
 }
