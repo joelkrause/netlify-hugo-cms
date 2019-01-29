@@ -94,7 +94,8 @@ a {
 }
 
 .container {
-    width: 95vw;
+    width: 100%;
+    padding: 0 25px;
     margin: 0 auto;
 
     @include breakpoint(up, xl) {
@@ -213,12 +214,13 @@ nav {
                 position: fixed;
                 left: 0;
                 top: -100%;
-                height: 100%;
                 width: 100%;
                 background-color: var(--color_accent_background);
                 transition: top 0.5s;
                 opacity: 1;
                 z-index: 1;
+                padding: 50px;
+                font-size: 1.25rem;
             }
 
             @include breakpoint(up, lg) {
@@ -227,7 +229,15 @@ nav {
             }
 
             li {
+                margin: 0 0 25px;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+
                 @include breakpoint(up, lg) {
+                    margin: 0;
+
                     &:not(:last-of-type) {
                         margin-right: 25px;
                     }
