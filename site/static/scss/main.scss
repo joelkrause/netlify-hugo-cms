@@ -163,6 +163,7 @@ nav {
                 ~.open--menu_label {
                     span {
                         background-color: var(--color_accent_text);
+
                         &.line-1 {
                             transform: rotate(45deg) translateX(10px);
                         }
@@ -427,9 +428,10 @@ nav {
 
 .single--page {
     .page--content {
-        padding: 5vw 0;
+        padding: 25px;
 
         @include breakpoint(up, lg) {
+            padding: 5vw 0;
             padding-top: calc(5vw + 77px);
         }
     }
