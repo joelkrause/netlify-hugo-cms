@@ -163,6 +163,12 @@ nav {
     &.site--navigation {
         flex-grow: 1;
 
+        @include breakpoint(up, 1024px) {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
         .open--menu {
             display: none;
 
@@ -242,6 +248,7 @@ nav {
             @include breakpoint(up, lg) {
                 display: flex;
                 justify-content: flex-end;
+                align-items: center;
             }
 
             li {
